@@ -20,10 +20,10 @@ function App() {
         <p>通知設定：{Notification.permission}</p>
         <button onClick={handleClickPermission}>通知を許可する</button>
         <button onClick={handleClickNotification}>
-          通知を許可する（音なし）
+          通知する（音なし）
         </button>
         <button onClick={handleClickNotificationWithSound}>
-          通知を許可する（音あり）
+          通知する（音あり）
         </button>
       </header>
     </div>
